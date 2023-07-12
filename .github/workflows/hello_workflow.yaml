@@ -3,7 +3,7 @@ on: [push]
 jobs:
   external-workflow:
     runs-on: ubuntu-latest
-    steps:
+    step:
       - uses: actions/checkout@v3
         with:
           repository: abystoma/external-workflow
